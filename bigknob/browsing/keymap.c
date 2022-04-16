@@ -53,9 +53,9 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = { //button closest to USB is first
   [0] = LAYOUT(
-     KC_MS_BTN3, LT(1, KC_MEDIA_PLAY_PAUSE), KC_MUTE, KC_VOLU, KC_VOLD
+     KC_MS_BTN3, LT(1, KC_MUTE), KC_VOLU, KC_VOLD, LCTL(KC_1)
   ),
   [1] = LAYOUT(
-     KC_MS_BTN3, KC_TRNS, RGB_TOG, RGB_HUI, RGB_MOD
+     KC_MS_BTN3, KC_TRNS, RGB_TOG, RGB_HUD, RGB_RMOD
   ), 
 };
