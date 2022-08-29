@@ -65,9 +65,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // RGB configuration
     [_RGB] = LAYOUT_top(
             RGB_M_P,      RGB_M_B,     RGB_M_R,
-        RGB_MOD, RGB_HUI, RGB_SAI, RGB_VAI, RGB_SPI,
+        RGB_MOD, RGB_HUI, RGB_SAI, KC_TRNS, RGB_SPI,
         RGB_RMOD,RGB_HUD, RGB_SAD, RGB_VAD, QK_BOOTLOADER,
-        KC_TRNS, RGB_TOG, RGB_M_P, RGB_M_B, RGB_M_R
+        RGB_TOG, RGB_TOG, RGB_M_P, RGB_M_B, RGB_M_R
     ),
 };
 
