@@ -19,3 +19,9 @@ The keymaps are for the:
 * [Google Meet Mute+CapsLock](https://github.com/andrewinmoco/qmk_firmware/tree/master/keyboards/keychron/q6/ansi_encoder/keymaps/andrewinmoco)
 ## Winry315
 * [Google Meet Mute Switch](/winry315/mute)
+
+
+# Personal Note:
+Don't make the same mistake I did: before you buy any Keychron keyboard make sure they've actually pushed the keyboard layout to the master QMK repo. Some of their 'QMK compatible’ keyboards are only compatible with Keychron's custom QMK fork, and not the original QMK. 
+
+
